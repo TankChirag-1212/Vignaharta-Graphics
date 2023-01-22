@@ -1,0 +1,128 @@
+
+section{
+    margin:0 0 10px 0;
+}
+
+/* Navigation Section  */
+
+.icon{
+    margin:0 0 0 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    border:3px solid;
+    border-color: rgb(245, 242, 173);
+}
+
+.navitems a{
+    font-size: 20px;
+    color:#fff;
+    margin: 0 1.7rem 0 0;
+}
+.navigation {
+    background: linear-gradient(0.47turn,#FAA116, #F05026);
+}
+
+/* Home Section */
+
+.homeblack{
+    background-color:black;
+    width: 100%;
+    height: 45rem;
+    position:static;
+    z-index:-1;
+}
+
+.homeimage{
+    width: 100%;
+    height: 50rem;
+    opacity: 0.7;
+    position: absolute;
+    top:0;
+}
+
+.homepattern{
+    width: 64.5rem;
+    height:50rem;
+    position:absolute;
+    right:0px;
+    top:0;
+    clip-path: polygon(100% 100%, 100% -74%, 0 100%);
+    opacity: 0.4;
+}
+
+.divname{
+    position: absolute;
+    top:15.25rem;
+    left:7rem;
+    padding: 1.5rem;
+    border: 18px solid;
+    border-color: #ff2121;
+    border-radius: 3rem;
+}
+
+.homename{
+    color: #fff;
+    font-family:'Arvo', serif;
+    font-size: 125px;
+}
+
+/* About Section */
+
+.about_us{
+    position: relative;
+    height: 47.5rem;
+}
+
+.aboutbgimg{
+    width:100%;
+    height: 45.2rem;
+    position: absolute;
+    top:0%;
+    z-index: -1;
+}
+
+.content{
+    color: white;
+    position: absolute;
+    /* left: 59.25rem; */
+    right: 1.75rem;
+    width: 44.75rem;
+    height: 45.25rem;
+    padding:10px 5px 0;
+    z-index: 1;
+}
+
+.about-heading{
+    text-align: center;
+    margin: 60px 0 27px;
+    font-family:'Arvo', serif;
+    font-size: 68px;
+}
+
+.about-para{
+    display: block;
+    width: 41rem;
+    margin:35px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.aboutpattern{
+    width: 72.8rem;
+    height: 45.25rem;
+    position: absolute;
+    top: 0;
+    /* left: 32.5rem; */
+    right: 0;
+    opacity: 0.7;
+    clip-path: polygon(100% 100%, 100% -126%, 0 100%);
+}
+
+
+
+
+
+
